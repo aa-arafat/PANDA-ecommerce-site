@@ -16,24 +16,27 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg mt-4 pe-5 ps-5">
-        <div class="container-fluid">
-          <div class="navbar-brand text-center"><img src="./images/logo.png" alt="" /></div>
+      <nav class="navbar navbar-expand-lg  mt-4">
+        <div class="container-fluid row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 ">
+          <div class="navbar-brand w-25 ps-4"><img src="./images/logo.png" alt="" /></div>
       
-          <div class="col-lg-6 text-center">
-            <form class="d-flex" role="search">
-              <input class="form-control rounded-5" type="search" placeholder="Search" aria-label="Search" />
+          <div class="col text-center">
+            <form class="position-relative d-flex align-items-center" role="search">
+              <input class="form-control border-0 rounded-5 bg-light" type="search" placeholder="Search" aria-label="Search">
+              <i class="bi bi-search position-absolute mt-4 me-3 end-0 translate-middle-y"></i>
             </form>
+            
           </div>
       
           <div class="text-center">
-            <ul class="navbar-nav list-unstyled d-flex gap-4">
-              <li class="nav-item"><a class="nav-link text-decoration-none text-dark" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link text-decoration-none text-dark" href="#">Product</a></li>
-              <li class="nav-item"><a class="nav-link text-decoration-none text-dark" href="#">About Us</a></li>
-              <li class="nav-item"><a class="nav-link text-decoration-none text-dark" href="#">Contact Us</a></li>
-            </ul>
-          </div>
+  <ul class="navbar-nav list-unstyled d-flex flex-column flex-md-row gap-4">
+    <li class="nav-item"><a class="nav-link text-decoration-none text-dark" href="#">Home</a></li>
+    <li class="nav-item"><a class="nav-link text-decoration-none text-dark" href="#">Product</a></li>
+    <li class="nav-item"><a class="nav-link text-decoration-none text-dark" href="#">About Us</a></li>
+    <li class="nav-item"><a class="nav-link text-decoration-none text-dark" href="#">Contact Us</a></li>
+  </ul>
+</div>
+
         </div>
       </nav>
       
